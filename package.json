@@ -1,5 +1,5 @@
 {
-  "name": "@wyre-technology/node-clio",
+  "name": "@wyre-ai/node-clio",
   "version": "1.0.0",
   "description": "Node.js/TypeScript client library for the Clio Manage API",
   "type": "module",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wyre-technology/node-clio.git"
+    "url": "git+https://github.com/WYRE-AI/node-clio.git"
   },
   "license": "Apache-2.0",
   "keywords": [

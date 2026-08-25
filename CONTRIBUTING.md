@@ -1,11 +1,11 @@
 # Contributing to node-clio
 
-Thanks for your interest in contributing to `@wyre-technology/node-clio`.
+Thanks for your interest in contributing to `@wyre-ai/node-clio`.
 
 ## Development setup
 
 ```bash
-git clone git@github.com:wyre-technology/node-clio.git
+git clone git@github.com:WYRE-AI/node-clio.git
 cd node-clio
 npm install
 ```
@@ -45,7 +45,7 @@ with the reasoning for the change.
 
 ## Reporting issues
 
-Open a [GitHub issue](https://github.com/wyre-technology/node-clio/issues) with:
+Open a [GitHub issue](https://github.com/WYRE-AI/node-clio/issues) with:
 - The SDK version
 - A minimal reproduction
 - The relevant Clio API response (redact any client/matter data)
