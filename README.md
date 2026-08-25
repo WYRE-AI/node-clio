@@ -1,4 +1,4 @@
-# @wyre-technology/node-clio
+# @wyre-ai/node-clio
 
 Node.js / TypeScript client for the [Clio Manage API](https://docs.developers.clio.com/) (v4).
 
@@ -11,13 +11,13 @@ Zero runtime dependencies — built on native `fetch`. Dual CJS/ESM build, full 
 ## Install
 
 ```bash
-npm install @wyre-technology/node-clio
+npm install @wyre-ai/node-clio
 ```
 
 This package is published to GitHub Packages. Add to your `.npmrc`:
 
 ```
-@wyre-technology:registry=https://npm.pkg.github.com
+@wyre-ai:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
 ```
 
@@ -42,7 +42,7 @@ selected once when you create the app in the developer portal, and apply to ever
 user who authorizes it — see [Permissions](https://docs.developers.clio.com/api-docs/clio-manage/permissions/).
 
 ```ts
-import { buildAuthorizationUrl, exchangeAuthorizationCode } from '@wyre-technology/node-clio';
+import { buildAuthorizationUrl, exchangeAuthorizationCode } from '@wyre-ai/node-clio';
 
 // 1a. Send the user to Clio to approve access.
 const authUrl = buildAuthorizationUrl({
@@ -69,7 +69,7 @@ const tokens = await exchangeAuthorizationCode({
 ### 2. Construct the client
 
 ```ts
-import { ClioClient } from '@wyre-technology/node-clio';
+import { ClioClient } from '@wyre-ai/node-clio';
 
 const client = new ClioClient({
   accessToken: tokens.accessToken,
@@ -186,7 +186,7 @@ import {
   ValidationError,
   RateLimitError,
   ServerError,
-} from '@wyre-technology/node-clio';
+} from '@wyre-ai/node-clio';
 
 try {
   await client.matters.get(12345);
