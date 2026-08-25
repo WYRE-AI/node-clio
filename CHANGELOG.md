@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/WYRE-AI/node-clio/compare/v1.0.0...v1.0.1) (2026-08-25)
+
+
+### Bug Fixes
+
+* migrate to WYRE-AI org (npm scope, ghcr namespace, registry) ([#1](https://github.com/WYRE-AI/node-clio/issues/1)) ([eb85536](https://github.com/WYRE-AI/node-clio/commit/eb85536879025ed892177377c04951d92b29374f))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
